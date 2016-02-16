@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="4">
+            <objects>
+                <viewController id="5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2"/>
+                        <viewControllerLayoutGuide type="bottom" id="3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="9" translatesAutoresizingMaskIntoConstraints="NO" image="logo.jpeg" fixedFrame="YES">
+                                <rect key="frame" x="192" y="188" width="239" height="240"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="40" y="120" width="239" height="240"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24" y="-87"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rss_circle_gray.png" width="128" height="128"/>
+        <image name="twitter_circle_gray.png" width="128" height="128"/>
+        <image name="ic_menu_white_2x.png" width="48" height="48"/>
+        <image name="ic_menu_white_3x.png" width="72" height="72"/>
+        <image name="ic_menu_white.png" width="24" height="24"/>
+        <image name="info_outline.png" width="128" height="128"/>
+        <image name="ic_facebook.png" width="128" height="128"/>
+        <image name="ic_twitter.png" width="128" height="128"/>
+        <image name="ic_pinterest.png" width="128" height="128"/>
+        <image name="demo_picture.jpg" width="800" height="531"/>
+        <image name="ic_page.png" width="128" height="128"/>
+        <image name="Icon.png" width="57" height="57"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="Icon-Small-50.png" width="50" height="50"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-76.png" width="76" height="76"/>
+        <image name="Icon-72.png" width="72" height="72"/>
+        <image name="logo.jpeg" width="400" height="400"/>
+    </resources>
+</document>
